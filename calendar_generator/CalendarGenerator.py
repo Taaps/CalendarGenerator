@@ -3,6 +3,7 @@ def CalendarGenerator(pais: str, estado: str, cidade: str, ano_inicio: int, ano_
     import pandas as pd
     import holidays
     from datetime import date
+    import numpy as np
 
 
     dias_pt = {
