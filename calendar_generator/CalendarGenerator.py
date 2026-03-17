@@ -1,5 +1,5 @@
 #%%
-def gerar_calendario_completo(pais: str, estado: str, cidade: str, ano_inicio: int, ano_fim: int):
+def CalendarGenerator(pais: str, estado: str, cidade: str, ano_inicio: int, ano_fim: int):
     import pandas as pd
     import holidays
     from datetime import date
