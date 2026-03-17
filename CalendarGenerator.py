@@ -62,11 +62,4 @@ def gerar_calendario_completo(pais: str, estado: str, cidade: str, ano_inicio: i
         print(f"❌ Erro ao gerar calendário: {e}")
         return None
 #%%
-# Execução
-df_resultado = gerar_calendario_completo(pais='BR', estado='PR', cidade='Curitiba', ano_inicio=2024, ano_fim=2025)
 
-# Visualizando as primeiras linhas
-print(df_resultado.head(15))
-
-# Se quiser salvar para Excel:
-# df_resultado.to_excel("calendario_completo.xlsx", index=False)
